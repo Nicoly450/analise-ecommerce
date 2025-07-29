@@ -9,7 +9,7 @@ Este projeto tem como objetivo analisar os dados de vendas de um e-commerce, uti
 
 Abaixo está uma prévia do painel final construído no Power BI com os principais KPIs e gráficos:
 
-<img src="img/dashboard_projeto.png" alt="Dashboard Power BI" width="800px">
+![Dashboard Power BI](https://github.com/Nicoly450/analisar-ecommerce/blob/main/img/dashboard_projeto.png?raw=true)
 
 ---
 
