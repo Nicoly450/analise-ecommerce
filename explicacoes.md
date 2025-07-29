@@ -63,9 +63,11 @@ ORDER BY count(*) desc;
 ### Ticket médio por canal
 
 ```sql
-SELECT canal, ROUND(AVG(valor), 2) AS ticket_medio
-FROM dados2_limpos
-GROUP BY canal;
+SELECT Canal, round(avg(valor), 2) as 'Ticket Medio' from dados2_limpos
+WHERE canal is not null
+and status = 'Entregue' and status is not null
+GROUP BY canal
+ORDER BY round(avg(valor), 2) desc;
 ```
 
 **Resultado:** O Instagram teve o maior ticket médio, seguido por WhatsApp e Site. O iFood ficou com o menor valor médio por pedido.
