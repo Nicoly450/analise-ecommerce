@@ -85,7 +85,8 @@ As análises em Python foram feitas usando `pandas`, após leitura do CSV e apli
 ```python
 df_filtrado = df[df['status'].notnull()]
 cancelados = df_filtrado[df_filtrado['status'] == 'Cancelado']
-percentual_cancelado = (len(cancelados) / len(df_filtrado)) * 100```
+percentual_cancelado = (len(cancelados) / len(df_filtrado)) * 100
+```
 
 **Resultado:** Aproximadamente 32,88% dos pedidos foram cancelados.
 
@@ -95,8 +96,12 @@ percentual_cancelado = (len(cancelados) / len(df_filtrado)) * 100```
 
 ### Ticket médio por cliente
 
+### Porcentagem de pedidos cancelados
+
 ```python
-ticket_medio_cliente = df[df['status'] == 'Entregue'].groupby('cliente')['valor'].mean().round(2)
+df_filtrado = df[df['status'].notnull()]
+cancelados = df_filtrado[df_filtrado['status'] == 'Cancelado']
+percentual_cancelado = (len(cancelados) / len(df_filtrado)) * 100
 ```
 
 **Resultado:** Ticket médio entre R$45,45 e R$53,27. Bruno Mello e Fernanda Rocha estão entre os que mais gastam.
