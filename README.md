@@ -5,6 +5,18 @@
 Este projeto tem como objetivo analisar os dados de vendas de um e-commerce, utilizando uma abordagem completa de automação, tratamento, análise e visualização com **Python, SQL e Power BI**. A base de dados simula uma operação de vendas com múltiplos canais (Instagram, WhatsApp, Site, iFood), diversos status de pedidos e formas de pagamento.
 
 ---
+## 🖼️ Visão Geral do Dashboard
+
+Abaixo está uma prévia do painel final construído no Power BI com os principais KPIs e gráficos:
+
+![Dashboard Power BI](./imagem/dashboard_projeto.png)
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+Python, SQL, Power BI...
+
 
 ## 🧠 Objetivo
 
@@ -162,5 +174,8 @@ Tenho interesse especial em Dados e busco oportunidades para aplicar meus conhec
 📬 E-mail: nicoly.cardoso450@gmail.com  
 🔗 [LinkedIn] (https://www.linkedin.com/in/nicoly-cardoso-97135b244)
 💻 [GitHub] (https://github.com/Nicoly450)
+
+📘 Veja explicações técnicas detalhadas:  
+[🔍 explicações.md](./explicacoes.md)
 
 Projeto feito com 💡 dedicação, organização e propósito. Obrigada por acompanhar minha jornada!
