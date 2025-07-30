@@ -48,19 +48,18 @@ Criar um projeto **realista e automatizado** que simula o dia a dia de um(a) Ana
 │   ├── 📄 1_quantidade_pedidos_canal.sql  
 │   ├── 📄 2_ticket_medio.sql  
 │   └── 📄 3_porcentagem_entregues.sql  
-│  
-├── 📁 dashboard_powerbi  
-│   └── 📄 dashboard.pbix  
+│
+├── 📁 img
+|    ├── python_receita_canal.png
+|    ├── segmentacao.png
+|    ├── sql_ticket_medio.png
+|    ├── dashboard_projeto.png
 │  
 ├── 📄 dados2.limpos.csv  
 ├── 📄 dados2.limpos.limpos.csv  
 ├── 📄 README.md  
 |── 📄 explicacoes.md
 |
-├── 📁 img
-|    ├── python_receita_canal.png
-|    ├── segmentacao.png
-|    ├── sql_ticket_medio.png
 
 
 ```
