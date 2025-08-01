@@ -28,7 +28,7 @@ for coluna in df.columns:
 
 # 3. Conecta ao banco MySQL via SQLAlchemy
 usuario = 'root'
-senha = '1234'
+senha = 'ocultado'
 host = 'localhost'
 banco = 'limpeza'
 engine = create_engine(f'mysql+pymysql://{usuario}:{senha}@{host}/{banco}')
